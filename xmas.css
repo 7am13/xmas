@@ -1,0 +1,6 @@
+.xmasgrad {
+  background: #066306;
+  background: linear-gradient(to right, #C21411 0%, #066306 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
