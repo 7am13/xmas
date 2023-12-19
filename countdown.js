@@ -19,7 +19,7 @@ function updateCountdown() {
   const countdownElement = document.getElementById('countdown');
   countdownElement.style.color = '#FF9EA9'
   countdownElement.innerHTML = `
-      <span>D-${days} ${hours}시간${minutes}분${seconds}초</span>`;
+      <span>D-${days} ${hours}시간 ${minutes}분 ${seconds}초</span>`;
 }
 // 페이지 로드 시에도 업데이트 수행
 updateCountdown();
